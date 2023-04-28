@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.nav--container {
+    background: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    padding: 19px;
+    width: 550px;
+    margin: auto;
+    margin-bottom: 27px;
+}
+
+.nav--title {
+    color: #FFFFFF;
+    padding-left: 8px;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.nav--logo {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+.content{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card--details{
+    padding-left: 32px;
+}
+
+.location--img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;   
+}
+
+
+.pin--logo {
+    height: 12px;
+    padding-right: 8px;
+}
+
+.card--location {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+a:link {  
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    }
+
+.card--title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card--date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    padding-bottom: 8px;
+}
+
+.card--info {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.page---break {
+    border: 1px solid red;
+}

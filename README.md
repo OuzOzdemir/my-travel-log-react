@@ -1,0 +1,1 @@
+# I created my own travel log by following a FIGMA design.
