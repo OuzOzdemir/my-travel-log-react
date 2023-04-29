@@ -1,21 +1,19 @@
 import React from "react"
 import Navbar from "./components/Navbar"
 import Card from "./components/Card"
+import Divider from "./components/Divider"
 import data from "./data"
 
 export default function App() {
-    const items = data.map(item => {
-        return (          
-                <Card
-                key={item.id}
-                {...item}
-                />      
-            
-        )
-    })
+        const items = data.map((item, index) => (
+                <React.Fragment key={index}>
+                    <Card {...item}/>
+                    <Divider />
+                </React.Fragment>
+        ))
     
     return (
-        <div className="log">
+        <div className="travel-log">
             <Navbar />
                 <div className="content">
                 {items}                
