@@ -1,11 +1,12 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Card(props) {
 return (          
     <div className="card">
         <img src={props.imageUrl} className="location--img"/>
         <div className="card--details">
-            <img src="../images/pin.png" className="pin--logo" />
+            <FontAwesomeIcon icon="fa-solid fa-location-dot" className="pin--logo" style={{color: "#f5545a",}} />
             <span className="card--location">{props.location} </span>
             <a href={props.googleMapsUrl} target="_blank">View on Google Maps</a>
             <div className="card--title">{props.title}</div>
